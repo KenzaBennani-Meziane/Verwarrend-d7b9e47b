@@ -1,3 +1,3 @@
 use sterrenstelsel;
-alter table planeten drop primary key, add id int null auto_increment, add primary key(id);
+update planeten set naam = 'Teenalp' where id = '1';
 SELECT * FROM sterrenstelsel.planeten;
